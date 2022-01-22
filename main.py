@@ -2,7 +2,7 @@ from num2words import num2words
 import random
 import click
 import numpy as np
-accNo = ['0000','0001']
+accNo = ['0000','0002']
 mobNum = ['987654','80555']
 accName = ['Ashif','Sadiq']
 accPin = ['8055','0000']
