@@ -17,7 +17,7 @@ cd pyATM
 sudo apt-get install -y python3
 ```
 ```
-pip install app/requirements.txt
+pip install -r app/requirements.txt
 ```
 ```
 python3 app/main.py
