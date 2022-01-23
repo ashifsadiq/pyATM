@@ -2,11 +2,11 @@ from num2words import num2words
 import random
 import click
 import numpy as np
-accNo = ['0000','0002']
-mobNum = ['987654','80555']
-accName = ['Ashif','Sadiq']
-accPin = ['8055','0000']
-accCash = [10000,50000]
+accNo = ['0000'] # is account number
+mobNum = ['9876543210'] # mobile number
+accName = ['user1'] # account name
+accPin = ['1234'] # accpin
+accCash = [50000]
 menu = '\t1. Withdraw\n\t2. Deposit\n\t3. Check Balance\n\t4. Change Pin\n\t5. Delete Account\n\t6. Logout\n\nEnter Number [1 - 5]then ENTER : '
 def cashWithdraw(cash):
     myList = [2000,500,200,100] 
