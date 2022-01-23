@@ -11,13 +11,16 @@ sudo apt-get install -y git
 git clone https://github.com/ashifsadiq/pyATM.git
 ```
 ```
-cd pyATM
+cd pyATM 
 ```
 ```
 sudo apt-get install -y python3
 ```
 ```
-python3 main.py
+pip install app/requirements.txt
+```
+```
+python3 app/main.py
 ```
 <br>
 
