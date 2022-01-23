@@ -237,6 +237,8 @@ while True:
         click.clear()
         if createAcc == 'y':            # process for creating account
             inAccNo = raNum(5)
+            while inAccNo in accNo:
+                 inAccNo = raNum(5)
             inAccPin = raNum(4)
             inAccName = input('Enter your Offcial Name: ')
             inMobNum = input('Enter your mobile number: ')
